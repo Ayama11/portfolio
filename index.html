@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Aya Almalla | AI Portfolio</title>
-  <meta name="description" content="AI portfolio showcasing Medical AI, Arabic NLP, and Expert Systems projects." />
+  <meta name="description" content="AI portfolio focused on Medical AI, Arabic NLP, and Computer Vision." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,27 +12,27 @@
 </head>
 
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="#top" aria-label="Home">
-        <span class="brand-dot"></span>
-        <span>Aya Almalla</span>
+  <header class="header">
+    <div class="container header-row">
+      <a class="brand" href="#top">
+        <span class="brand-mark"></span>
+        <span class="brand-name">Aya Almalla</span>
       </a>
 
-      <nav class="nav-links" aria-label="Primary navigation">
+      <nav class="nav">
         <a href="#about">About</a>
-        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
     </div>
 
     <div class="container mobile-nav" id="mobileNav" hidden>
       <a href="#about">About</a>
-      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </div>
   </header>
@@ -40,58 +40,29 @@
   <main id="top">
     <!-- HERO -->
     <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-left">
-          <div class="pill">Medical AI • Arabic NLP • Computer Vision</div>
+      <div class="container hero-inner">
+        <p class="kicker">Medical AI • Arabic NLP • Computer Vision</p>
 
-          <h1>
-            AI Engineer (Junior) focused on deployable, real-world ML systems.
-          </h1>
+        <h1 class="title">
+          AI Engineer (Junior) building deployable, real-world ML systems.
+        </h1>
 
-          <p class="lead">
-            I build end-to-end solutions—from model training to interactive demos—
-            with a strong focus on medical applications and Arabic NLP.
-          </p>
+        <p class="subtitle">
+          I’m a fifth-year Information Technology Engineering student specializing in Artificial Intelligence.
+          I focus on end-to-end projects—training models, evaluating results, and delivering clean demos for real users.
+        </p>
 
-          <div class="hero-cta">
-            <a class="btn primary" href="#projects">View Projects</a>
-            <a class="btn ghost" href="#contact">Get in Touch</a>
-          </div>
-
-          <div class="quick-stats">
-            <div class="stat">
-              <div class="stat-num">4</div>
-              <div class="stat-label">Featured projects</div>
-            </div>
-            <div class="stat">
-              <div class="stat-num">1</div>
-              <div class="stat-label">Hugging Face model</div>
-            </div>
-            <div class="stat">
-              <div class="stat-num">2+</div>
-              <div class="stat-label">Deployed demos</div>
-            </div>
-          </div>
+        <div class="cta">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in Touch</a>
         </div>
 
-        <div class="hero-right">
-          <div class="hero-card">
-            <div class="hero-card-top">
-              <span class="dot green"></span>
-              <span class="dot yellow"></span>
-              <span class="dot red"></span>
-            </div>
-            <div class="hero-card-body">
-              <div class="mono-line"><span class="mono-key">model</span>: shifaa-bert-classifier</div>
-              <div class="mono-line"><span class="mono-key">task</span>: arabic text classification (16 classes)</div>
-              <div class="mono-line"><span class="mono-key">output</span>: top-k + confidence</div>
-              <div class="mono-line"><span class="mono-key">deploy</span>: streamlit demo</div>
-              <div class="mono-sep"></div>
-              <div class="mono-line"><span class="mono-key">focus</span>: practical ML + clean UX</div>
-            </div>
-          </div>
-
-          <div class="glow" aria-hidden="true"></div>
+        <div class="meta">
+          <a class="meta-link" href="https://www.linkedin.com/in/aya-almalla" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span class="dot">•</span>
+          <a class="meta-link" href="https://github.com/Ayama11" target="_blank" rel="noreferrer">GitHub</a>
+          <span class="dot">•</span>
+          <span class="meta-note">Open to internships & research</span>
         </div>
       </div>
     </section>
@@ -101,83 +72,32 @@
       <div class="container">
         <div class="section-head">
           <h2>About</h2>
-          <p>Get to know more about my background.</p>
+          <p>A quick snapshot of my background and focus.</p>
         </div>
 
-        <div class="grid-2">
-          <article class="card">
+        <div class="about-grid">
+          <div class="card">
             <h3>Education</h3>
             <p>
               Fifth-year Information Technology Engineering student specializing in Artificial Intelligence.
-              Strong foundation in machine learning, deep learning, and software development, with a focus on
-              building practical end-to-end projects.
+              Strong foundation in ML/DL, data pipelines, and software development.
             </p>
-          </article>
+          </div>
 
-          <article class="card">
-            <h3>Focus</h3>
+          <div class="card">
+            <h3>What I build</h3>
             <p>
-              I enjoy applying AI to real-world problems—especially in <strong>medical AI</strong>,
-              <strong>Arabic NLP</strong>, and <strong>computer vision</strong>. I’m open to internships and
-              research opportunities where I can contribute, learn, and grow.
+              I build practical AI systems—especially in <strong>medical AI</strong> and <strong>Arabic NLP</strong>—
+              and I care about making them usable through demos and clear documentation.
             </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section alt">
-      <div class="container">
-        <div class="section-head">
-          <h2>Skills</h2>
-          <p>Technologies I use across ML and software development.</p>
-        </div>
-
-        <div class="skills">
-          <div class="skill-group card">
-            <h3>AI & ML</h3>
-            <div class="chips">
-              <span class="chip">Machine Learning</span>
-              <span class="chip">Deep Learning</span>
-              <span class="chip">NLP</span>
-              <span class="chip">Computer Vision</span>
-              <span class="chip">Transformers</span>
-              <span class="chip">Model Evaluation</span>
-            </div>
           </div>
 
-          <div class="skill-group card">
-            <h3>Tools & Frameworks</h3>
-            <div class="chips">
-              <span class="chip">PyTorch</span>
-              <span class="chip">Hugging Face</span>
-              <span class="chip">OpenCV</span>
-              <span class="chip">Streamlit</span>
-              <span class="chip">Git/GitHub</span>
-              <span class="chip">Docker (basic)</span>
-            </div>
-          </div>
-
-          <div class="skill-group card">
-            <h3>Programming</h3>
-            <div class="chips">
-              <span class="chip">Python</span>
-              <span class="chip">JavaScript</span>
-              <span class="chip">SQL</span>
-              <span class="chip">OOP</span>
-              <span class="chip">REST APIs</span>
-            </div>
-          </div>
-
-          <div class="skill-group card">
-            <h3>App Development</h3>
-            <div class="chips">
-              <span class="chip">Flutter</span>
-              <span class="chip">Dart</span>
-              <span class="chip">UI/UX</span>
-              <span class="chip">MVVM</span>
-            </div>
+          <div class="card">
+            <h3>What I’m looking for</h3>
+            <p>
+              Internship or research opportunities where I can contribute to ML/NLP/CV projects, learn from experienced teams,
+              and keep shipping real solutions.
+            </p>
           </div>
         </div>
       </div>
@@ -188,45 +108,81 @@
       <div class="container">
         <div class="section-head">
           <h2>Projects</h2>
-          <p>Selected work with demos, GitHub, and model links.</p>
+          <p>Click any project to view details, links, and results.</p>
         </div>
 
-        <div class="projects-grid" id="projectsGrid">
-          <!-- Filled by app.js -->
+        <!-- ✅ one project under another -->
+        <div class="projects-list" id="projectsList"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Core tools and technologies I work with.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="card">
+            <h3>AI / ML</h3>
+            <div class="chips">
+              <span class="chip">Transformers</span>
+              <span class="chip">NLP</span>
+              <span class="chip">Computer Vision</span>
+              <span class="chip">Model Evaluation</span>
+              <span class="chip">Data Preprocessing</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Frameworks</h3>
+            <div class="chips">
+              <span class="chip">PyTorch</span>
+              <span class="chip">Hugging Face</span>
+              <span class="chip">OpenCV</span>
+              <span class="chip">Streamlit</span>
+              <span class="chip">Experta</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Software</h3>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">Git/GitHub</span>
+              <span class="chip">REST APIs</span>
+              <span class="chip">SQL</span>
+              <span class="chip">Flutter</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="section alt">
+    <section id="contact" class="section">
       <div class="container">
         <div class="section-head">
           <h2>Contact</h2>
-          <p>Let’s connect — I’m open to internships and research opportunities.</p>
+          <p>Best way to reach me: LinkedIn or GitHub.</p>
         </div>
 
-        <div class="grid-2">
-          <div class="card">
-            <h3>Email</h3>
-            <p class="muted">Click to email me directly.</p>
-            <a class="btn primary full" href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>
-          </div>
+        <div class="contact-grid">
+          <a class="contact-card" href="https://www.linkedin.com/in/aya-almalla" target="_blank" rel="noreferrer">
+            <div class="contact-title">LinkedIn</div>
+            <div class="contact-sub">/aya-almalla</div>
+          </a>
 
-          <div class="card">
-            <h3>Links</h3>
-            <p class="muted">LinkedIn, GitHub, Hugging Face.</p>
-            <div class="link-row">
-              <a class="btn ghost full" href="YOUR_LINKEDIN_HERE" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a class="btn ghost full" href="YOUR_GITHUB_HERE" target="_blank" rel="noreferrer">GitHub</a>
-              <a class="btn ghost full" href="https://huggingface.co/aya99ma/shifaa-bert-classifier" target="_blank" rel="noreferrer">Hugging Face</a>
-            </div>
-          </div>
+          <a class="contact-card" href="https://github.com/Ayama11" target="_blank" rel="noreferrer">
+            <div class="contact-title">GitHub</div>
+            <div class="contact-sub">@Ayama11</div>
+          </a>
         </div>
 
         <footer class="footer">
           <span>© <span id="year"></span> Aya Almalla</span>
-          <span class="sep">•</span>
-          <span class="muted">Built with HTML/CSS/JS • Dark mode</span>
         </footer>
       </div>
     </section>
