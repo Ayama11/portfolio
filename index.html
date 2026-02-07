@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aya Almalla | AI Portfolio</title>
+  <meta name="description" content="AI portfolio showcasing Medical AI, Arabic NLP, and Expert Systems projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-dot"></span>
+        <span>Aya Almalla</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+
+    <div class="container mobile-nav" id="mobileNav" hidden>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="pill">Medical AI • Arabic NLP • Computer Vision</div>
+
+          <h1>
+            AI Engineer (Junior) focused on deployable, real-world ML systems.
+          </h1>
+
+          <p class="lead">
+            I build end-to-end solutions—from model training to interactive demos—
+            with a strong focus on medical applications and Arabic NLP.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Get in Touch</a>
+          </div>
+
+          <div class="quick-stats">
+            <div class="stat">
+              <div class="stat-num">4</div>
+              <div class="stat-label">Featured projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">1</div>
+              <div class="stat-label">Hugging Face model</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">2+</div>
+              <div class="stat-label">Deployed demos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-card">
+            <div class="hero-card-top">
+              <span class="dot green"></span>
+              <span class="dot yellow"></span>
+              <span class="dot red"></span>
+            </div>
+            <div class="hero-card-body">
+              <div class="mono-line"><span class="mono-key">model</span>: shifaa-bert-classifier</div>
+              <div class="mono-line"><span class="mono-key">task</span>: arabic text classification (16 classes)</div>
+              <div class="mono-line"><span class="mono-key">output</span>: top-k + confidence</div>
+              <div class="mono-line"><span class="mono-key">deploy</span>: streamlit demo</div>
+              <div class="mono-sep"></div>
+              <div class="mono-line"><span class="mono-key">focus</span>: practical ML + clean UX</div>
+            </div>
+          </div>
+
+          <div class="glow" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>Get to know more about my background.</p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card">
+            <h3>Education</h3>
+            <p>
+              Fifth-year Information Technology Engineering student specializing in Artificial Intelligence.
+              Strong foundation in machine learning, deep learning, and software development, with a focus on
+              building practical end-to-end projects.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Focus</h3>
+            <p>
+              I enjoy applying AI to real-world problems—especially in <strong>medical AI</strong>,
+              <strong>Arabic NLP</strong>, and <strong>computer vision</strong>. I’m open to internships and
+              research opportunities where I can contribute, learn, and grow.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Technologies I use across ML and software development.</p>
+        </div>
+
+        <div class="skills">
+          <div class="skill-group card">
+            <h3>AI & ML</h3>
+            <div class="chips">
+              <span class="chip">Machine Learning</span>
+              <span class="chip">Deep Learning</span>
+              <span class="chip">NLP</span>
+              <span class="chip">Computer Vision</span>
+              <span class="chip">Transformers</span>
+              <span class="chip">Model Evaluation</span>
+            </div>
+          </div>
+
+          <div class="skill-group card">
+            <h3>Tools & Frameworks</h3>
+            <div class="chips">
+              <span class="chip">PyTorch</span>
+              <span class="chip">Hugging Face</span>
+              <span class="chip">OpenCV</span>
+              <span class="chip">Streamlit</span>
+              <span class="chip">Git/GitHub</span>
+              <span class="chip">Docker (basic)</span>
+            </div>
+          </div>
+
+          <div class="skill-group card">
+            <h3>Programming</h3>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">SQL</span>
+              <span class="chip">OOP</span>
+              <span class="chip">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-group card">
+            <h3>App Development</h3>
+            <div class="chips">
+              <span class="chip">Flutter</span>
+              <span class="chip">Dart</span>
+              <span class="chip">UI/UX</span>
+              <span class="chip">MVVM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Selected work with demos, GitHub, and model links.</p>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Filled by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Let’s connect — I’m open to internships and research opportunities.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Email</h3>
+            <p class="muted">Click to email me directly.</p>
+            <a class="btn primary full" href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>
+          </div>
+
+          <div class="card">
+            <h3>Links</h3>
+            <p class="muted">LinkedIn, GitHub, Hugging Face.</p>
+            <div class="link-row">
+              <a class="btn ghost full" href="YOUR_LINKEDIN_HERE" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="btn ghost full" href="YOUR_GITHUB_HERE" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn ghost full" href="https://huggingface.co/aya99ma/shifaa-bert-classifier" target="_blank" rel="noreferrer">Hugging Face</a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> Aya Almalla</span>
+          <span class="sep">•</span>
+          <span class="muted">Built with HTML/CSS/JS • Dark mode</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
